@@ -1,0 +1,13 @@
+Drop Index TLD_Majextic_Index1;
+Drop Index RefSubnets_Majextic_Index2;
+Drop Index TLD_RefIPs_Majextic_Index3;
+
+DELETE FROM MAJESTIC;
+DELETE FROM MAJESTIC_INDEX1;
+DELETE FROM MAJESTIC_INDEX2;
+DELETE FROM MAJESTIC_INDEX3;
+
+Drop table MAJESTIC;
+Drop table MAJESTIC_INDEX1;
+Drop table MAJESTIC_INDEX2;
+Drop table MAJESTIC_INDEX3;

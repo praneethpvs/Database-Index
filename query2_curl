@@ -1,0 +1,4 @@
+time curl --data "tld=in" http://csgrads1.utdallas.edu:6363/search_tld_no_idx
+time curl --data "tld=in" http://csgrads1.utdallas.edu:6363/search_tld_idx1
+time curl --data "tld=in" http://csgrads1.utdallas.edu:6363/search_tld_idx2
+time curl --data "tld=in" http://csgrads1.utdallas.edu:6363/search_tld_idx3

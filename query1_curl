@@ -1,0 +1,4 @@
+time curl --data "domain=wikipedia.org" http://csgrads1.utdallas.edu:6363/search_no_idx
+time curl --data "tld=in" http://csgrads1.utdallas.edu:6363/search_idx1
+time curl --data "tld=in" http://csgrads1.utdallas.edu:6363/search_idx3
+time curl --data "tld=in" http://csgrads1.utdallas.edu:6363/search_idx3
